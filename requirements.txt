@@ -1,0 +1,18 @@
+# Core RAG
+langchain
+langchain-groq
+langchain-huggingface
+langchain-community
+faiss-cpu
+pypdf
+sentence-transformers
+torch
+
+# API & Environment
+python-dotenv
+groq
+google-genai
+
+# UI
+streamlit
+watchdog

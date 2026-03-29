@@ -1,0 +1,8 @@
+﻿__pycache__/
+.env
+faiss_index/
+*.pdf
+push_to_git.ps1
+stitch_preview.html
+api_results.json
+*.log
