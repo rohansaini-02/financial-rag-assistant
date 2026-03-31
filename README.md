@@ -29,7 +29,7 @@ GROQ_API_KEY=your_key_here
 
 4. **Start the app**
 ```bash
-streamlit run streamlit_app.py
+streamlit run frontend/streamlit_app.py
 ```
 
 ## Usage

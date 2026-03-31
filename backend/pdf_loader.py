@@ -6,7 +6,7 @@ Loads and parses PDF documents from the configured directory.
 import os
 import glob
 from langchain_community.document_loaders import PyPDFLoader
-from config import PDF_DIRECTORY
+from backend.config import PDF_DIRECTORY
 
 
 def load_pdfs(target: str = None) -> list:

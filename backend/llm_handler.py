@@ -6,7 +6,7 @@ Now uses GROQ SDK for lightning-fast responses.
 
 import time
 from groq import Groq
-from config import GROQ_API_KEY, LLM_MODEL, LLM_TEMPERATURE
+from backend.config import GROQ_API_KEY, LLM_MODEL, LLM_TEMPERATURE
 
 # ──────────────────────────────────────────────
 # Prompt Template (Optimized for RAG)

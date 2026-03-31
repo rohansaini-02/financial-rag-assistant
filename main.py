@@ -3,7 +3,7 @@ Main Entry Point -- Interactive CLI
 Allows users to ask questions and get RAG-powered answers.
 """
 
-from rag_pipeline import RAGPipeline
+from backend.rag_pipeline import RAGPipeline
 
 
 def main():

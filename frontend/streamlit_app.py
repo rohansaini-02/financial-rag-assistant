@@ -1,7 +1,10 @@
 import streamlit as st
 import os
 import tempfile
-from rag_pipeline import RAGPipeline
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from backend.rag_pipeline import RAGPipeline
 
 st.set_page_config(
     page_title="Investment Intelligence AI",

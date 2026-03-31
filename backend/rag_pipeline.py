@@ -3,11 +3,11 @@ RAG Pipeline Orchestrator
 Ties together all modules into a complete RAG pipeline.
 """
 
-from pdf_loader import load_pdfs
-from text_chunker import chunk_documents
-from embedding_store import create_or_load_store
-from retriever import retrieve_relevant_chunks, format_retrieved_context, print_retrieved_chunks
-from llm_handler import generate_response
+from backend.pdf_loader import load_pdfs
+from backend.text_chunker import chunk_documents
+from backend.embedding_store import create_or_load_store
+from backend.retriever import retrieve_relevant_chunks, format_retrieved_context, print_retrieved_chunks
+from backend.llm_handler import generate_response
 
 
 class RAGPipeline:

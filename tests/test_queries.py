@@ -1,9 +1,12 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 """
 Test Queries Script
 Runs all 5 mandatory test queries from the PRD and displays results.
 """
 
-from rag_pipeline import RAGPipeline
+from backend.rag_pipeline import RAGPipeline
 
 
 # ──────────────────────────────────────────────

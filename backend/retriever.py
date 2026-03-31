@@ -5,7 +5,7 @@ the most relevant chunks for a given query.
 """
 
 from langchain_community.vectorstores import FAISS
-from config import TOP_K
+from backend.config import TOP_K
 
 
 def retrieve_relevant_chunks(vector_store: FAISS, query: str, top_k: int = None) -> list:

@@ -5,7 +5,7 @@ for embedding and retrieval.
 """
 
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from config import CHUNK_SIZE, CHUNK_OVERLAP, SEPARATORS
+from backend.config import CHUNK_SIZE, CHUNK_OVERLAP, SEPARATORS
 
 
 def chunk_documents(documents: list) -> list:
@@ -49,7 +49,7 @@ def chunk_documents(documents: list) -> list:
 
 
 if __name__ == "__main__":
-    from pdf_loader import load_pdfs
+    from backend.pdf_loader import load_pdfs
     
     docs = load_pdfs()
     chunks = chunk_documents(docs)

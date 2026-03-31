@@ -8,7 +8,7 @@ No API calls needed - runs entirely on your machine!
 import os
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
-from config import FAISS_INDEX_DIR
+from backend.config import FAISS_INDEX_DIR
 
 # ──────────────────────────────────────────────
 # Local Embedding Model (no API key needed!)
