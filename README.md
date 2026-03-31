@@ -33,6 +33,8 @@ streamlit run streamlit_app.py
 ```
 
 ## Usage
-- Open `http://localhost:8501` in your browser.
-- Upload an investment textbook (PDF).
-- Ask questions or use the provided suggestion chips to get accurate, grounded answers directly from the textbook.
+
+1. **Launch the dashboard:** Open your browser and navigate to `http://localhost:8501`.
+2. **Upload your document:** Drag and drop an investment textbook PDF into the provided upload zone.
+3. **Wait for ingestion:** The system will quickly process the PDF and build the local context.
+4. **Start analyzing:** Type your financial questions into the bottom chat bar, or click one of the suggested query chips to see instant, source-backed answers.
