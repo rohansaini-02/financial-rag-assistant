@@ -16,18 +16,27 @@ git clone https://github.com/rohansaini-02/financial-rag-assistant.git
 cd financial-rag-assistant
 ```
 
-2. **Install dependencies**
+2. **Create a virtual environment (Optional but Recommended)**
+```bash
+python -m venv venv
+# On Windows
+venv\Scripts\activate
+# On macOS/Linux
+source venv/bin/activate
+```
+
+3. **Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Add API Key**
-Create a `.env` file in the root directory and add your Groq API key:
+4. **Add API Key**
+Rename `.env.example` to `.env` or create a new `.env` file in the root directory and add your Groq API key:
 ```env
-GROQ_API_KEY=your_key_here
+GROQ_API_KEY=gsk_your_actual_key_here
 ```
 
-4. **Start the app**
+5. **Start the app**
 ```bash
 streamlit run frontend/streamlit_app.py
 ```
